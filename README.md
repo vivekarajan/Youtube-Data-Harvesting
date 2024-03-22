@@ -24,7 +24,7 @@ project objective:
  ( pip install google-api-python-client pymongo mysql-connector-python sqlalchemy pymysql pandas numpy plotly-express streamlit )
  
 ### 3. Import Libraries
-**print library
+**print library**
 *import pprint
 
 **Youtube API libraries**
@@ -49,9 +49,6 @@ project objective:
 **Dashboard libraries**
 * import streamlit as st
 * import plotly.express as plt
-
-**Voice library**
-*import pyttsx3 [If necessary, but not required]
 
 ### 4. E T L Process
 
