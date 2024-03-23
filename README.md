@@ -3,8 +3,8 @@
 
 * YouTube, the online video-sharing platform, has revolutionized the way we consume and interact with media. Launched in 2005, it has grown into a global phenomenon, serving as a hub for entertainment, education and community engagement with its vast user base and diverse content library. YouTube has become a powerful tool for individuals, creators, and businesses to share their stories, express themselves, and connect with audiences worldwide.
 
-project objective:
-  Here, I'm working on a streamlit user interface project for YOUTUBE data harvesting. Using a YouTube API key, this project retrieves data from particular YouTube channel details and stores it in a MySQL database. then it pulls data from MySQL and generates a response for each of the ten example queries. Finally, an analysis chart for the example problem I took is displayed.
+## project objective:
+  * Here, I'm working on a streamlit user interface project for YOUTUBE data harvesting. Using a YouTube API key, this project retrieves data from particular YouTube channel details and stores it in a MySQL database. then it pulls data from MySQL and generates a response for each of the ten example queries. Finally, an analysis chart for the example problem I took is displayed.
 
 
 ## Developer Guide 
@@ -54,30 +54,30 @@ project objective:
 
 #### a) Extract data
 
-* Extract the particular youtube channel data by using the youtube channel id, with the help of the youtube API developer console.
+* Using the YouTube channel id and the YouTube API developer console, get the specific YouTube channel data.Using the playlist id, further video data can also be extracted from a specific channel.
 
 #### b) Process and Transform the data
 
-* After the extraction process, takes the required details from the extraction data and transform it into complex JSON format.
+* Takes the necessary information from the extracted data and converts it into a complex JSON format after the extraction process.
 
 #### c) Load  data 
 
-* After the transformation process, the JSON format data is stored in the MySQL database.
+* Create the required tables and database after the transformation process. then an insert query is used to store that complex JSON data in the MySQL database.
 
-
+  
 ### 5. E D A Process and Framework
 
 #### a) Access MySQL DB 
 
-* Create a connection to the MySQL server and access the specified MySQL DataBase by using pymysql library and access tables.
+* Using the pymysql library and access tables, establish a connection to the MySQL server and get access to the specified MySQL DataBase.
 
 #### b) Filter the data
 
-* Filter and process the collected data from the tables depending on the given requirements by using SQL queries and transform the processed data into a DataFrame format.
+* Apply SQL queries to process the information obtained from the tables in accordance with the given questions. Next, create a DataFrame format out of the processed data.
 
 #### c) Visualization 
 
-* Finally, create a Dashboard by using Streamlit and give dropdown options on the Dashboard to the user and select a question from that menu to analyse the data and show the output in Dataframe Table and example scatter-3D chart: I set myself a particular query.
+* Finally, make use of Streamlit to build a dashboard. Provide the user with dropdown options on the dashboard. Next, I was given a task to analyze the data for myself and see the outcomes in a Dataframe Table and a sample scatter-3D image.
 
 ## User Guide
 
@@ -91,6 +91,7 @@ project objective:
 
 #### Step 3. analysis zone
 
-* select **view analysis** button and you can view the scatter-3D chart analysis for given aim mentioned above.
+* By clicking the **view analysis** button, you can see the scatter-3D chart analysis for the above-mentioned problem.
+
 
   
