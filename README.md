@@ -25,7 +25,7 @@
  
 ### 3. Import Libraries
 **print library**
-*import pprint
+* import pprint
 
 **Youtube API libraries**
 * import googleapiclient.discovery
