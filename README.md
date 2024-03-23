@@ -4,7 +4,7 @@
 * YouTube, the online video-sharing platform, has revolutionized the way we consume and interact with media. Launched in 2005, it has grown into a global phenomenon, serving as a hub for entertainment, education and community engagement with its vast user base and diverse content library. YouTube has become a powerful tool for individuals, creators, and businesses to share their stories, express themselves, and connect with audiences worldwide.
 
 ## project objective:
-  * Here, I'm working on a streamlit user interface project for YOUTUBE data harvesting. Using a YouTube API key, this project retrieves data from particular YouTube channel details and stores it in a MySQL database. then it pulls data from MySQL and generates a response for each of the ten example queries. Finally, an analysis chart for the example problem I took is displayed.
+  * Here, I completed a streamlit user interface project for YouTube data gathering and warehousing. This project pulls data from YouTube and saves it in a MySQL database using a YouTube API key. then it retrieves information from MySQL and produces a reply for every one of the ten sample queries. Lastly, a chart of analysis for the sample problem that I chose is shown.
 
 
 ## Developer Guide 
