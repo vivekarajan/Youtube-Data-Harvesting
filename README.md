@@ -93,5 +93,7 @@
 
 * By clicking the **view analysis** button, you can see the scatter-3D chart analysis for the above-mentioned problem.
 
+#### Notes:
+* First, you need to provide your YouTube Developer Console API key in the coding section - 'use_your_api_key'.
+* Secondly, the MySQL connection will only function if you enter your original login, host, and password.
 
-  
