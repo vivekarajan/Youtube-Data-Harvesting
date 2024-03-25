@@ -65,7 +65,7 @@
 * Create the required tables and database after the transformation process. then an insert query is used to store that complex JSON data in the MySQL database.
 
   
-### 5. E D A Process and Framework
+### 5. E D A Process
 
 #### a) Access MySQL DB 
 
