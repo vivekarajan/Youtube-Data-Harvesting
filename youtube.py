@@ -62,7 +62,11 @@ def channel_info(res_channel, res_playlist):
     channel_id = res_channel['items'][0]['id']
     subscription_count = res_channel['items'][0]['statistics']['subscriberCount']
     channel_views = res_channel['items'][0]['statistics']['viewCount']
-    channel_description = res_channel['items'][0]['snippet']['description'].split('\n')[2]
+    channel_description = res_channel['items'][0]['snippet']['description']
+    if '\n' in channel_description:
+        channel_description = channel_description.split('\n')[2] if len(channel_description.split('\n')) > 2 else ""
+    else:
+        channel_description = ""
     playlist_id = res_playlist['items'][0]['id']
     playlist_name = res_playlist['items'][0]['snippet']['title']
 
