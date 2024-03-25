@@ -19,9 +19,9 @@
 ### 2. Requirement Libraries to Install
 
 * pip install google-api-python-client, mysql-connector-python, pymysql, pymysql, pandas, numpy, 
-  plotly-express, streamlit.
+  plotly-express, streamlit, Datetime, regularexpression.
   
- ( pip install google-api-python-client mysql-connector-python sqlalchemy pymysql pandas numpy plotly-express streamlit )
+ ( pip install google-api-python-client mysql-connector-python sqlalchemy pymysql pandas numpy plotly-express streamlit Datetime regularexpression)
  
 ### 3. Import Libraries
 **print library**
